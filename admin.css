@@ -1,0 +1,66 @@
+/*type d'ecriture dans tous le site*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+/*Type d'ecriture barre de navigation*//*titre+des header*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat:wght@200&display=swap');
+/*ecriture*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat:wght@200&family=Poppins:wght@200&display=swap');
+
+
+html{
+	scroll-behavior: smooth;
+}
+
+.globale{
+	display: flex;
+	flex-direction: wrap;
+}
+
+.mini-box1{
+	background: #123857;
+    padding: 3rem;
+    height: 20px;
+    width: 450px;
+    margin-top: 20px;
+    margin-left:30px;
+    border-radius: 20px;
+    box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, .2);
+}
+
+.mini-box2{
+	background: #123857;
+    padding: 3rem;
+    height: 20px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 20px;
+    border-radius: 20px;
+    box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, .2);
+}
+
+.mini-box3{
+	background: #123857;
+    padding: 3rem;
+    height: 20px;
+    width: 200px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, .2);
+}
+
+.g{
+	display: flex;
+	flex-direction: wrap;
+}
+.globale2 .box{
+	background: #123857;
+    padding: 3rem;
+    height: 20px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 20px;
+    box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, .2);
+}
+

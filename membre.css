@@ -1,0 +1,197 @@
+/*type d'ecriture dans tous le site*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+/*Type d'ecriture barre de navigation*//*titre+des header*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat:wght@200&display=swap');
+/*ecriture*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat:wght@200&family=Poppins:wght@200&display=swap');
+
+/*mot de passe*/
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Extended&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	overflow-x: hidden;
+	scrollbar-width:thin; 
+    scrollbar-color: #123857 white;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*----------------NAVIGATION--------------*/
+nav{
+	
+	width: 100%;
+	display: flex;/*aligner tous les elements*/
+	flex-direction: wrap;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Merriweather', serif;
+	background-color:#123857;
+}
+
+nav .onglets{
+	margin-top: 3px;
+	margin-left: 350px;
+	white-space: nowrap; /*empeche le retour en ligne*/
+}
+
+nav .onglets a{
+	text-align: center;
+	text-decoration: none;
+	color:#dfdfdf;
+	margin-right: 20px; 
+	font-size:25px;
+	cursor: pointer;
+}
+
+.logo{
+	width:250px;
+	position: left;	
+}
+
+/*----------------PROFILE MEMBRE------------*/
+.box{
+	display: flex;
+	flex-direction: wrap;
+}
+.side-card{
+	background-color:#123857 ;
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 30%;
+	height:460px;
+}
+
+.main-card{
+	float: right;
+	background-color: lightgray;
+	width: 67.75%;
+	height:460px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.side-card img{
+	margin-left:33%;
+	margin-top: 20%;
+}
+
+.mini-menu p{
+	color: #48b7b6;
+	margin-top: 20px;
+	margin-left:  25%;
+	margin-bottom: 50px;
+	font-family: 'Merriweather', serif;
+}
+
+.mini-menu a{
+	text-decoration: none;
+	color: lightgray;
+	margin-left:10%;
+	font-family: 'Merriweather', serif;
+}
+
+.main-card h1{
+	color: #202020;
+	margin-left: 30px;
+	margin-top:30px;
+	font-weight: bold;
+	font-size: 70px;
+	margin-bottom: 90px;
+}
+
+.main-card p{
+	color: #202020;
+	margin-left: 30px;
+	margin-top:30px;
+	font-size: 25px;
+	font-family: 'Merriweather', serif;
+}
+
+hr{
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 25px;
+	height: 1px;
+    background-color: #48b7b6;
+    border: none;
+}
+.mot{
+	display: flex;
+	flex-direction: wrap;
+	color: #202020;
+	margin-left: 30px;
+	margin-top:30px;
+	font-size: 25px;
+}
+
+.mot .mm{
+	font-family: 'Merriweather', serif;
+}
+.mot .ps{
+	margin-top: 8px;
+	font-family: 'Libre Barcode 39 Extended', cursive;
+}
+
+.mot .ps:hover{
+font-family: 'Merriweather', serif;
+
+}
+
+.main-card2{
+	background-color: lightgray;
+	width: 98.5%;
+	height:400px;
+    margin-left: 10px;
+    margin-top: 10px;
+	margin-bottom: 80px;
+}
+
+
+
+/*----------*/
+footer{
+	margin-top: 50px;
+	background: #123857;
+	height:auto;
+	width: auto;
+	color: white;
+
+}
+
+.footer-content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.footer-content h3{
+	margin-top: 10px;
+	font-weight: bold;
+	margin-bottom: 15px;
+	sfont-family: 'Merriweather', serif;
+}
+
+.socials{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.socials img{
+	margin-top:25px;
+	margin-bottom: 10px;
+	margin-right: 30px;
+	width: 30px;
+	height: 30px;
+}

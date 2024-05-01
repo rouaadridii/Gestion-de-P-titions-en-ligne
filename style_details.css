@@ -1,0 +1,23 @@
+/*type d'ecriture dans tous le site*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+/*Type d'ecriture barre de navigation*//*titre+des header*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat:wght@200&display=swap');
+/*ecriture*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat:wght@200&family=Poppins:wght@200&display=swap');
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	overflow-x: hidden;
+	scrollbar-width:thin; 
+    scrollbar-color: #123758 white;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+/*-----------DETAILS------------*/
+.retour img{
+	padding-top: 40px;
+	margin-left: 70px;
+}

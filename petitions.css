@@ -1,0 +1,61 @@
+/*type d'ecriture dans tous le site*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+/*Type d'ecriture barre de navigation*//*titre+des header*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat:wght@200&display=swap');
+/*ecriture*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat:wght@200&family=Poppins:wght@200&display=swap');
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	overflow-x: hidden;
+	scrollbar-width:thin; 
+    scrollbar-color: #123758 white;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+
+/*----------------AFFICHAGE--------------*/
+ .liste{
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 370px;
+    width: 600px;
+    height: 150px;
+    border-radius:50px;
+    background-color: lightgray;
+    color: black;
+  }
+.peti{
+  background-color: lightgray;
+  font-size: 15px;
+  padding: 7px 0;
+  margin: 7px 0;
+
+}
+ .peti input{
+ 	text-align: center;
+  border: none;
+  outline: none;
+  background: lightgray;
+  color: black;
+  font-size: 18px;
+  margin: 0 5px;
+  font-family: 'Merriweather', serif;
+}
+
+.btn{
+  text-align: center;
+  width: 100px;
+  background-color: #48b7b6;
+  border-radius: 20px;
+  color: #404040;
+  padding: 2px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 3px 0;
+  font-family: 'Merriweather', serif;
+}  
